@@ -1,0 +1,46 @@
+.navbar{
+    &-brand{
+          margin-left: 200px;
+          color:white ;
+          font-style: italic;
+        }
+    .searchBtn{
+        width: 750px;
+        height: 32px;
+        margin-top: 2px;
+    }
+
+    .loginBtn{
+        // width: 90px;
+        border: 1px solid white;
+        color: blue;
+        background-color: white;
+        height: 32px;
+        text-align: center;
+        border-radius: 3px;
+        font-weight: 500;
+        padding: 4px 40px;
+        cursor: pointer;
+        margin-top: 4px;
+    }
+    .search {
+        height: 32px;
+        margin-top: 1px;
+        &-input{
+          width: 500px; 
+        }
+
+        &-button{
+         background: white;
+         padding: 2px 10px;
+        }
+    }
+
+    .cart-icon{
+        font-size: 16px;
+        // padding: 2px;
+        // margin: 2px;
+        color: white;
+    }
+
+}
