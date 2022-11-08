@@ -49,11 +49,12 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+      
         <button type="button" #btnClose class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
      <div class="modal-body">
-        <!-- <app-sign-in *ngIf="actionType == 'signIn'" (actionEmit)="emitActionSign($event)"></app-sign-in>
-        <app-sign-up *ngIf="actionType == 'signUp'" (signUpComplete)="signUpAction($event)"></app-sign-up> -->
+         <app-sign-in *ngIf="eventtype == 'signIn'" (actionemiter)="signUpComplete($event)"></app-sign-in>
+       <app-sign-up *ngIf="eventtype =='signUp'" (signUpComplete)="signUpAction($event)"></app-sign-up> 
       </div> 
       <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
